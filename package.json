@@ -1,11 +1,11 @@
 {
-  "name": "MALAKA-MD-V1",
+  "name": "Xaif-MD-V1",
   "version": "1.0.0",
   "description": "A WhatsApp bot created using Node.js",
-  "main": "MALAKA-MD.js",
+  "main": "Xaif-MD.js",
   "scripts": {
-    "start": "pm2 start MALAKA-MD.js --deep-monitoring --attach --name Malaka-md",
-    "stop": "pm2 stop Malaka-md",
+    "start": "pm2 start Xaif-MD.js --deep-monitoring --attach --name Xaif-md",
+    "stop": "pm2 stop Xaif-md",
     "restart": "pm2 restart Malaka-md"
   },
   "dependencies": {
